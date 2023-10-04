@@ -10,7 +10,7 @@
 body,html{
     width: 100vw;
     height: 100vh;
-    background-color:#D06CF5 ;
+    background-color:#5f2c82 ;
 }
 
 main{
@@ -30,7 +30,9 @@ section#login{
     color: black;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438)
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 section#login> div#img{
@@ -48,5 +50,5 @@ section#login> div#img{
 section#login > div#form{
     display: block;
     padding:10px;
-    background-color: rgb(235, 245, 225);    
+    background-color: rgb(120, 2, 255);    
 }

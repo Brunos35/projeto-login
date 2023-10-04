@@ -34,7 +34,7 @@ section#login{
 }
 
 section#login> div#img{
-   
+   display: block;
     width: 250px;
     height: 200px;
     background-image: url(../imagens/pexels-yogesh-jadeja-18395080.jpg);
@@ -45,6 +45,8 @@ section#login> div#img{
     
 }
 
-div#form{
-    background-color: chartreuse;    
+section#login > div#form{
+    display: block;
+    padding:10px;
+    background-color: rgb(235, 245, 225);    
 }

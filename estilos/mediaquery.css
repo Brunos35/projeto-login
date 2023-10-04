@@ -24,7 +24,7 @@
         background-position: center center;
     }
 
-    section#login > div#form{
+    section#login > div#formu{
         float: right;
         width: 70%;
         height: 100%;
@@ -47,7 +47,7 @@
         height: 100%;
         background-position: center center;
     }
-    section#login > div#form{
+    section#login > div#formu{
         float: right;
         width: 50%;
         height: 100%;
@@ -70,18 +70,18 @@
         height: 100%;
         background-position: center center;
     }
-    section#login > div#form{
+    section#login > div#formu{
         float: left;
         width: 50%;
         height: 100%;
         text-align: justify;
     }
 
-    div#form > h1{
+    div#formu > h1{
         font-size: 2em;
     }
 
-    div#form > p{
+    div#formu > p{
         font-size: 1.2em;
     }
 }
